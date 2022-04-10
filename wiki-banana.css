@@ -1,0 +1,88 @@
+.page {
+    font-family: sans-serif;
+    margin-top: 3%;
+}
+
+.topbar {
+    border-bottom: 0.5px solid rgba(110, 125, 139, 0.76);
+    height: 5%;
+    margin-left: 10%;
+    width: 90vw;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0%;
+    top: 7%;
+    width: 9%;
+    height: 100%;
+    border-right: 0.5px solid rgba(110, 125, 139, 0.76);
+    margin-top: 1%;
+}
+
+.info {
+    margin-left: 10%;
+    padding-left: 1%;
+    width: 85%;
+}
+
+.maininfo {
+    display: inline-flex;
+    width: 90%;
+}
+
+p {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+.info-table {
+    background-color: rgb(248, 248, 248);
+    text-align: left;
+    width: 250px;
+    margin-left: 20%;
+    border: 1px solid lightgrey;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+.table-item {
+    display: inline;
+    text-align: center;
+    margin: 5px;
+}
+
+.contents {
+    border: 1px solid rgb(71, 77, 82);
+    margin-right: 75%;
+    padding-right: 15px;
+    background-color: rgba(235, 249, 252, 0.445);
+    font-size: 13.3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: rgb(15, 91, 179);
+}
+
+.descripted-img {
+
+    display: inline;
+    background-color: rgb(233, 220, 220);
+    border: 0.5px solid rgb(105, 101, 101);
+    margin: 15px;
+    padding: 15px;
+    padding-bottom: 4%;
+    height: 180px;
+    width: 180px;
+    font-size: smaller;
+    font-family: Arial;
+}
+
+#img-group {
+    display: flex;
+    margin: 1%;
+    border-top: 0.5px solid rgba(110, 125, 139, 0.76);
+}
